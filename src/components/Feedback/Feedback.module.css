@@ -1,0 +1,25 @@
+.feedback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.feedbackBtn {
+  top: 50%;
+  background-color: #0a0a23;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: large;
+}
+
+.feedbackBtn:hover,
+:focus {
+  background-color: #bebec4;
+  box-shadow: 0px 0px 2px 2px rgb(138, 135, 135);
+  color: #000000;
+  font-size: large;
+}

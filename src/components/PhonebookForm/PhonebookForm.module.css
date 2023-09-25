@@ -1,0 +1,15 @@
+.formField {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  gap: 20px;
+  resize: none;
+}
+.fieldName:focus {
+  background-color: white;
+  font-size: 0.8em;
+}
+.fieldNumber:focus {
+  background-color: white;
+  font-size: 0.8em;
+}
